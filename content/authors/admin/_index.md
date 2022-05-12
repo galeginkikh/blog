@@ -14,7 +14,7 @@ organizations:
     url: https://eng.rudn.ru/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in leader activities, develop leadership qualities, and also do programming
+bio: She is interested in leader activities, develop leadership qualities, and also do programming
 
 # Interests to show in About widget
 interests:
@@ -58,6 +58,6 @@ email: ''
 highlight_name: true
 ---
 
-Leginkikh Galina is a student of PFUR. She really likes to volunteer, solve problems in mathematics and physics. She graduated from the school of counselors. In his spare time he reads foreign literature.
+Leginkikh Galina is a student of RUDN. She really likes to volunteer, solve problems in mathematics and physics. She graduated from the school of counselors. In his spare time he reads foreign literature.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

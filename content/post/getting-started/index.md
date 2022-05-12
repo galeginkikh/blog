@@ -39,11 +39,15 @@ categories:
 
 ---
 
-## Git
+## **Git**
+
+_ _ _
 
 Git is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
 
-## History
+## **History**
+
+_ _ _
 
 Git development began in April 2005, after many developers of the Linux kernel gave up access to BitKeeper, a proprietary source-control management (SCM) system that they had been using to maintain the project since 2002. The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had created SourcePuller by reverse engineering the BitKeeper protocols. The same incident also spurred the creation of another version-control system, Mercurial.
 
@@ -58,11 +62,15 @@ The development of Git began on 3 April 2005. Torvalds announced the project on 
 
 Torvalds turned over maintenance on 26 July 2005 to Junio Hamano, a major contributor to the project. Hamano was responsible for the 1.0 release on 21 December 2005 and remains the project's core maintainer.
 
-## Design
+## **Design**
+
+_ _ _
 
 Git's design was inspired by BitKeeper and Monotone. Git was originally designed as a low-level version-control system engine, on top of which others could write front ends, such as Cogito or StGIT. The core Git project has since become a complete version-control system that is usable directly. While strongly influenced by BitKeeper, Torvalds deliberately avoided conventional approaches, leading to a unique design.
 
-## Implementations
+## **Implementations**
+
+_ _ _
 
 Git (the main implementation in C) is primarily developed on Linux, although it also supports most major operating systems, including the BSDs (DragonFly BSD, FreeBSD, NetBSD, and OpenBSD), Solaris, macOS, and Windows.
 
@@ -78,7 +86,9 @@ The libgit2 implementation of Git is an ANSI C software library with no other de
 
 JS-Git is a JavaScript implementation of a subset of Git.
 
-## Security
+## **Security**
+
+_ _ _
 
 Git does not provide access-control mechanisms, but was designed for operation with other tools that specialize in access control.
 
