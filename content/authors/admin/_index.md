@@ -43,6 +43,21 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/galeginkikh
+    
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/g_leginkikh?r=nametag
+    
+  - icon: vk
+    icon_pack: fab
+    link: https://vk.com/galina_leginkikh
+    
+  - icon: youtube
+    icon_pack: fab
+    link: https://www.youtube.com/channel/UCJZW4DlRplnQxtK8TMC3kwQ
+    
+  
+ 
  
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
