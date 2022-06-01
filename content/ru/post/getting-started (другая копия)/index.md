@@ -1,9 +1,9 @@
 ---
-title: My week 09.05.2022 - 15.05.2022 (Этап 4)
-subtitle: This week started with a holiday.
+title: Моя неделя 09.05.2022 - 15.05.2022 (Этап 4)
+subtitle: Эта неделя началась с праздника.
 
 # Summary for listings and search engines
-summary: This week started with a holiday.
+summary: Эта неделя началась с праздника.
 
 # Link this post with a project
 projects: []
@@ -39,20 +39,20 @@ categories:
 
 ---
 
-# My week 09.05.2022 - 15.05.2022
+# Моя неделя 09.05.2022 - 15.05.2022
 
 _ _ _
 
-This week started with a holiday. This is the day of victory. On this day, I had a fairly rich program. It was on this day that I returned to Moscow after a vacation. On the evening of May 9, there was a stunning solute. 
+Эта неделя началась с праздника. Это День Победы. В этот день у меня была довольно насыщенная программа. Именно в этот день я вернулся в Москву после отпуска. Вечером 9 мая был праздничный солют.
 
 ![2](image/2.jpg)
 
-Then, after a week of rest, I started training. It was necessary to complete and hand over all the debts. I did two more OS labs in advance. On the OS, I learned to work with two editors vi and emacs. 
+Затем, после недели отдыха, я приступила к работе. Необходимо было завершить и сдать все долги. Я заранее сделала еще две лабораторные работы по ОС. В операционной системе я научилась работать с двумя редакторами vi и emacs.
 
 ![3](image/3.png)
 
-I also devoted a lot of time to French. 
+Я также много времени уделяла французскому языку.
 
 ![1](image/1.jpg)
 
-This week has been quite productive.
+Эта неделя была довольно продуктивной.

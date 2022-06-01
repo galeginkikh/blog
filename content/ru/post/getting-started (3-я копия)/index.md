@@ -1,9 +1,9 @@
 ---
-title: Report in markdown
+title: Отчет в markdown
 subtitle: 
 
 # Summary for listings and search engines
-summary: Markdown is a lightweight markup language that is a tool for converting code to HTML.
+summary: Markdown - это облегченный язык разметки, который является инструментом для преобразования кода в HTML.
 
 
 # Link this post with a project
@@ -40,396 +40,406 @@ categories:
 
 ---
 
-# **Report in markdown**
+# **Отчет в markdown**
 
 _ _ _
 
-**Report:**
+**Отчет:**
 
-- Title page
-- Content
-- Target
-- Theoretical introduction
-- Completing of the work
-- Conclusion
+- Титульный лист
+- Содержание
+- Цель
+- Теоретическое введение
+- Выполнение работы
+- Заключение
 
-**Markdown** is a lightweight markup language that is a tool for converting code to HTML.
+*Markdown* - это облегченный язык разметки, который является инструментом для преобразования кода в HTML.
 
-The main feature of this language is the simplest syntax, which serves to simplify writing and reading markup code, which, in turn, makes it easy to correct it.
+Главной особенностью этого языка является простейший синтаксис, который служит для упрощения написания и чтения кода разметки, что, в свою очередь, облегчает его исправление.
 
-Now let's take a closer look at the functions of the Markdown markup language.
+Теперь давайте подробнее рассмотрим функции языка разметки Markdown.
 
-1. Block elements
+1. Блочные элементы
 
- - Paragraphs and line breaks;
+- Параграфы и разрывы строк;
 
- - Headlines;
+- Заголовки;
 
- - Quotes;
+- Цитаты;
 
- - Lists;
+- Списки;
 
- - Code blocks;
+- Блоки кода;
 
- - Horizontal (dividing) lines.
+- Горизонтальные (разделительные) линии.
 
-2. Lowercase elements
+2. Строчные элементы
 
- - Links;
+- Ссылки;
 
- - Text selection;
+- Выделение текста;
 
- - Code fragments of strings;
+- Кодовые фрагменты строк;
 
- - Images.
+- Изображения.
 
-**SYNTAX DESCRIPTION**
+**ОПИСАНИЕ СИНТАКСИСА**
 =========================
 
+# Параграфы и разрывы строк
 
-# Paragraphs and line breaks
+Для того, чтобы создать параграф с использованием синтаксиса языка Markdown, достаточно отделить строки текста одной (или более) пустой строкой (пустой считается всякая строка, которая не содержит в себе ничего, кроме пробелов и символов табуляции).
 
-In order to create a paragraph using the syntax of the Markdown language, it is enough to separate the lines of text with one (or more) empty line (any line that contains nothing but spaces and tab characters is considered empty).
+Для того, чтобы вставить видимый перенос строки (элемент `<br/>`) необходимо окончить строку двумя пробелами и нажатием клавиши «Enter». 
 
-In order to insert a visible line break (the `<br/>` element), you must end the line with two spaces and press the "Enter" key. 
+Многие элементы синтаксиса Markdown выглядят и работают гораздо лучше в случае, когда их форматируют с помощью «жесткого перевода строк» (разделение строк, осуществленное самим пользователем, а не программой автоматически). К таким элементам относятся цитаты, списки и пр.  
 
-Many elements of the Markdown syntax look and work much better when they are formatted using "hard line translation" (line separation performed by the user himself, and not by the program automatically). Such elements include quotes, lists, etc.
+# Заголовки  
 
-# Headlines 
+Язык разметки Markdown поддерживает 2 стиля обозначения заголовков: подчеркивание и выделение символом («#»).
 
-The Markdown markup language supports 2 styles of heading designations: underlining and highlighting with a symbol ("#").
+Выделение заголовков с помощью подчеркивания производится знаками равенства («=») в случае, если заголовок первого уровня, и дефисами («-») в случае, если заголовок второго уровня. Количество знаков подчеркивания не ограничивается.
 
-Headings are highlighted using underscores with equal signs ("=") if the title is of the first level, and hyphens ("-") if the title is of the second level. The number of underscores is not limited.
+При выделении заголовков с помощью символа («#») используется от одного до шести данных символов, которые устанавливаются в начале строки (перед заголовком). В данном случае количество символов соответствует уровню заголовка. Кроме того, заголовок возможно снабдить закрывающимися символами («#»), хотя это и не является обязательным. Количество закрывающихся символов не обязано соответствовать количеству начальных символов. Уровень заголовка определяется по количеству начальных символов.  
 
-When selecting headers using the symbol ("#"), from one to six of these characters are used, which are set at the beginning of the line (before the header). In this case, the number of characters corresponds to the header level. In addition, it is possible to provide the title with closing characters ("#"), although this is not mandatory. The number of closing characters does not have to match the number of initial characters. The level of the header is determined by the number of initial characters. 
+Заголовки первого и второго уровней, выполненные с помощью подчеркивания, выглядят следующим образом:
 
-The headings of the first and second levels, made using underscores, look like this:
-
-    First level header
+    Заголовок первого уровня
     ========================
-    Second level header
+    Заголовок второго уровня
     -------------------------
 
-The headings of the first, third and sixth levels, made using the symbol ("#"), look like this:
+Заголовки первого, третьего и шестого уровней, выполненные с помощью символа («#»), выглядят следующим образом:
 	
-    # First level header
-    ### Third level header
-    ###### Sixth level header
+    #  Заголовок первого уровня
+    ### Заголовок третьего уровня
+    ###### Заголовок шестого уровня
 
-The above headings made with the symbol ("#") are identical to the following:
+Приведенные выше заголовки, выполненные с помощью символа («#») тождественны следующим:
 
-    # First level header #
-    ### Third level header ###
-    ###### Sixth level header ######
+    #  Заголовок первого уровня #
+    ### Заголовок третьего уровня ###
+    ###### Заголовок шестого уровня ######
 
-As a result, the following is displayed on the screen:
+В результате на экран выводится следующее:
 
-First level header
+Заголовок первого уровня
 ========================
 
-Second level header
+Заголовок второго уровня
 ------------------------
 
-# First level header
+#  Заголовок первого уровня
 
-### Third level header
+### Заголовок третьего уровня
 
-###### Sixth level header
+###### Заголовок шестого уровня
 
-# Quotes 
+# Цитаты  
 
-The Markdown language uses the "more" (">") sign to indicate quotations. It can be inserted both before each line of the quotation, and only before the first line of the paragraph. 
+Для обозначения цитат в языке Markdown используется знак «больше» («>»). Его можно вставлять как перед каждой строкой цитаты, так и только перед первой строкой параграфа. 
 
-Also, the Markdown syntax allows you to create nested quotes (quotes inside quotes). Additional levels of citation marks (">") are used to mark them.
+Также синтаксис Markdown позволяет создавать вложенные цитаты (цитаты внутри цитат). Для их разметки используются дополнительные уровни знаков цитирования («>»).
 
-Quotes in Markdown can contain all kinds of markup elements.
+Цитаты в Markdown могут содержать всевозможные элементы разметки.
+Цитаты в языке Markdown выглядят следующим образом:
 
-Quotes in the Markdown language look like this:
+    >Это пример цитаты,
+    >в которой перед каждой строкой
+    >ставится угловая скобка.
 
-    >This is an example of a quote,
-    > in which an angle bracket is placed before each line.
+    >Это пример цитаты,
+    в которой угловая скобка
+    ставится только перед началом нового параграфа.
+    >Второй параграф.
 
-    >This is an example of a quote
-    in which the angle bracket
-    it is put only before the beginning of a new paragraph.
-    >The second paragraph.
+Вложение цитаты в цитату выглядит следующим образом:
 
-Embedding a quote into a quote looks like this:
+    > Первый уровень цитирования
+    >> Второй уровень цитирования
+    >>> Третий уровень цитирования
+    >
+    >Первый уровень цитирования
 
-    > First level of citation
-    >> Second level of citation
-    >>> Third level of citation
+В результате на экран выводится следующее:
 
-As a result, the following is displayed on the screen:
+>Это пример цитаты,
+>в которой перед каждой строкой
+>ставится угловая скобка.
 
->This is an example quote,
->in which before each line
->an angle bracket is placed.
+>Это пример цитаты,
+в которой угловая скобка
+ставится только перед началом нового параграфа.
 
->This is an example of a quote
-in which an angle bracket
-is placed just before the beginning of a new paragraph.
+>Второй параграф.
 
->The second paragraph.
+Вложенная цитата:
 
-Enclosed quote:
-
-> First Citation level
->> Second level of citation
->>> Third Citation Level
+> Первый уровень цитирования
+>> Второй уровень цитирования
+>>> Третий уровень цитирования
 >
->First Citation Level
+>Первый уровень цитирования
 
-The citation level cannot exceed the 15th.
 
-# Lists
+Уровень цитирования не может превышать 15-й.  
 
-Markdown supports ordered (numbered) and unordered (unnumbered) lists.
+# Списки
 
- Markers such as asterisks, pluses and hyphens are used to form unordered lists. All the listed markers can be used interchangeably. 
+Markdown поддерживает упорядоченные (нумерованные) и неупорядоченные (ненумерованные) списки.
 
-To form ordered lists, numbers with a dot are used as markers. An important feature in this case is that the numbers themselves, with which the list is formed, are not important, since they do not affect the output HTML code. No matter how the user numbers the list, the output will in any case have an ordered list starting with one (1, 2, 3 ...). This feature should be taken into account when it is necessary to use the ordinal numbers of elements in the list so that they correspond to the numbers obtained in HTML.
+ Для формирования неупорядоченный списков используются такие маркеры, как звездочки, плюсы и дефисы. Все перечисленные маркеры могут использоваться взаимозаменяемо. 
 
-Ordered lists should always start with one. List markers usually start from the beginning of the line, however, they can be shifted, but not more than 3 spaces
+Для формирования упорядоченных списков в качестве маркеров используются числа с точкой. Важной особенностью в данном случае является то, что сами номера, с помощью которых формируется список, не важны, так как они не оказывают влияния на выходной HTML код. Как бы ни нумеровал пользователь список, на выходе он в любом случае будет иметь упорядоченный список, начинающийся с единицы (1, 2, 3…). Эту особенность стоит учитывать в том случае, когда необходимо использовать порядковые номера элементов в списке, чтобы они соответствовали номерам, получающимся в HTML.
 
-    1. Explorer
-    2. Semiconductor
-    3. Dielectric
+Упорядоченные списки всегда следует начинать с единицы. Маркеры списков обычно начинаются с начала строки, однако они могут быть сдвинуты, но не более чем на 3 пробела. За маркером должен следовать пробел, либо символ табуляции. 
 
-The unordered lists look like this:
+При  необходимости в список можно вставить цитату. В этом случае обозначения цитирования ( «>» ) нужно писать с отступом.
+Упорядоченные списки выглядят следующим образом:
 
-    * Explorer
-    * Semiconductor
-    * Dielectric
+    1.	Проводник
+    2.	Полупроводник
+    3.	Диэлектрик
 
-Or
+Неупорядоченные списки выглядят следующим образом:
 
-    - Guide
-    - Semiconductor
-    - Dielectric
+    * Проводник
+    * Полупроводник
+    * Диэлектрик
 
-Or
+Или
 
-    + Explorer
-    + Semiconductor
-    + Dielectric
+    - Проводник
+    - Полупроводник
+    - Диэлектрик
 
-The output of all three listed options has the same result.
+Или
 
-As a result, the following is displayed on the screen:
+    + Проводник
+    + Полупроводник
+    + Диэлектрик
+На выходе всех трех перечисленных вариантов имеется один и тот же результат.
 
-1. Explorer
-2. Semiconductor
-3. Dielectric
+В результате на экран выводится следующее:
 
-and
+1. Проводник
+2. Полупроводник
+3. Диэлектрик
 
-+ Explorer
-+ Semiconductor
-+ Dielectric
+и
 
-The quote inserted into the list looks like this:
++ Проводник
++ Полупроводник
++ Диэлектрик
 
-    1. A list item with a quote:
+Цитата, вставленная в список, выглядит следующим образом:
 
-        > This is a quote
-        > inside the list item.
+    1. Элемент списка с цитатой:
 
-    2. The second item of the list
+        > Это цитата
+        > внутри элемента списка.
 
-As a result, the following is displayed on the screen:
+    2. Второй элемент списка
 
-1. A list item with a quote:
+В результате на экран выводится следующее:
 
- > This is a quote
- > inside the list item.
+1. Элемент списка с цитатой:
 
-2. The second item of the list
+    > Это цитата
+    > внутри элемента списка.
 
-When inserting quotes into the list items, it is important to keep in mind that the list items must be on the same level, and quotes must be indented. If the rule with a single list level is not followed, the next item in the list after the quote will be automatically numbered with the digit "1."
+2. Второй элемент списка
 
-In addition, if necessary, you can insert the source code into the list. In this case, it should be written with double indentation – 8 spaces or 2 tab characters. 
 
- - A list item containing the source code
+При вставке цитат в элементы списка важно учитывать, что элементы списка должны находиться на одном уровне, а цитаты должны указываться с отступом. В случае, если правило с единым уровнем списка не соблюдается, следующий после цитаты элемент списка будет автоматически нумероваться цифрой «1.». 
 
-       <source code >
+Кроме того, при необходимости в список можно вставить исходный код. В этом случае его нужно писать с двойным отступом – 8 пробелов или 2 символа табуляции. 
 
-# Code Blocks
+ - Элемент списка, содержащий исходный код
 
-Formatted code blocks are used when it is necessary to quote the source code of programs or markup. 
+		<исходный код >  
 
-To create a block of code in the Markdown language, it is necessary to start each line of a paragraph with an indent consisting of four spaces or one tab character. The code block continues until there is a line without indentation (or the end of the text). Inside the code block, ampersands ("&") and angle brackets ("<" and ">") are automatically converted into HTML markup elements. In addition, it should be noted that inside the code blocks, the usual Markdown syntax is not processed. 
+# Блоки кода
+Отформатированные блоки кода используются в случае необходимости процитировать исходный код программ или разметки. 
 
-The code block in Markdown looks like this:
+Для создания блока кода в языке Markdown необходимо каждую строку параграфа начинать  с отступа, состоящего из четырех пробелов или  одного символа табуляции. Блок кода продолжается до тех пор, пока не встретится строка без отступа (или конец текста).  Внутри блока кода амперсанды («&») и угловые скобки («<» и «>») автоматически преобразуются в элементы HTML разметки. Кроме того, следует отметить, что внутри блоков кода обычный синтаксис Markdown не обрабатывается. 
 
-This is a regular paragraph:
+Блок кода в Markdown выглядит следующим образом:
 
-    This is a block of code
+Это обычный параграф:
 
-# Horizontal lines (separators)
+	Это блок кода
 
-In order to create a horizontal line using the Markdown syntax, you need to place three (or more)a hyphen or asterisk on a separate line of text. 
+# Горизонтальные линии (разделители)  
 
-It is possible to place spaces between them.
+Для того чтобы создать горизонтальную линию с использованием синтаксиса языка Markdown, необходимо поместить три (или более)дефиса или звездочки на отдельной строке текста. Между ними возможно располагать пробелы. 
 
-Horizontal lines in Markdown look like this:
+Горизонтальные линии в Markdown выглядят следующим образом:
 
-    The first part of the text to be divided
+    Первая часть текста, который необходимо разделить
+
     ***
-    The second part of the text that needs to be divided
 
-Or
+    Вторая часть текста, который необходимо разделить
 
-    The first part of the text to be divided
+Или
+
+    Первая часть текста, который необходимо разделить
+
     ---
-    The second part of the text that needs to be divided
 
-As a result, the following is displayed on the screen:
+    Вторая часть текста, который необходимо разделить
 
-The first part of the text to be divided
+В результате на экран выводится следующее:
+
+Первая часть текста, который необходимо разделить
+
 ***
-The second part of the text that needs to be divided 
 
-When using this tool, it is important to remember that an empty line must be left after the first part of the text and before the second. This rule must be observed only when using hyphens. If it is not followed, the second-level header and a line of plain text will be displayed on the screen. When using the asterisk symbol, this rule can be ignored.
+Вторая часть текста, который необходимо разделить  
 
-# **Lowercase elements** 
+При использовании данного инструмента важно помнить, что после первой части текста и перед второй необходимо оставлять пустую строку. Данное правило необходимо соблюдать только при использовании дефисов. Если его не соблюдать, на экран будет выведен заголовок второго уровня и строка обычного текста.  При использовании символа звездочки данным правилом можно пренебречь.  
 
-_ _ _
+ Строчные элементы
+-------------------  
 
-# Links
+# Ссылки
 
-Markdown supports two styles of link design:
+Markdown поддерживает два стиля оформления ссылок:
 
- - Hyperlink, with immediate indication of the address (in-text);
- - A hyperlink similar to a footnote.
+ - Гиперссылка, с немедленным указанием адреса (внутритекстовая);
+ - Гиперссылка, подобная сноске.
 
-It is assumed that in addition to the URL, there is also a link text. It is enclosed in square brackets. 
+Подразумевается, что помимо URL-адреса существует еще текст ссылки. Он заключается в квадратные скобки. 
 
-To create an in-text hyperlink, you must use parentheses immediately after the closing square one. You need to put a URL inside them. It is also possible to place the name enclosed in quotation marks in them, which will be displayed when hovering, but this item is not mandatory.
+Для создания внутритекстовой гиперссылки необходимо использовать круглые скобки сразу после закрывающей квадратной. Внутри них необходимо поместить URL-адрес. В них же возможно расположить название, заключенное в кавычки, которое будет отображаться при наведении, но этот пункт не является обязательным. 
  
-      [example](http://example.com / "Optional hint")
+      [пример](http://example.com/ "Необязательная подсказка")
 
-As a result, the following is displayed on the screen: [example](http://example.com / "Optional hint")
+В результате на экран выводится следующее:
 
-When referring to a local directory, it is possible to use a relative path (from the current page, site, etc.) 
+[пример](http://example.com/ "Необязательная подсказка")
 
-When creating a passable hyperlink, a second pair of square brackets is used instead of the target address, inside which the label, the link identifier (id) is placed.
+При ссылке на локальную директорию возможно использование относительного пути (от текущей страницы, сайта и т.п.)  
 
-    [example][id]:
- 
-Also, you can use a space to separate 2 pairs of square brackets: 
+При создании сносной гиперссылки вместо целевого адреса используется вторая пара квадратных скобок, внутри которых помещается метка, идентификатор ссылки (id).
 
-    [example] [id]: 
+    [пример][id]:
 
-In this case, it is possible to determine the identifier anywhere in the document.: 
+Также, можно использовать пробел, чтобы отделять 2 пары квадратных скобок: 
 
-    [id]: http://example.com / "Optional hint"
+    [пример] [id]: 
 
-As a result, the following is displayed on the screen:
+В этом случае возможно определить идентификатор в любом месте документа: 
 
-[example] [id]: http://example.com / "Optional hint"
+    [id]: http://example.com/ "Необязательная подсказка"
 
-In other words, it consists of the following elements:
+В результате на экран выводится следующее:
 
- - Link ID surrounded by square brackets (which may be preceded by an optional indentation from one to three spaces);
- - Colon;
- - One or more spaces (or tab characters);
- - Hyperlink URL;
- - Optional title (a hint to the image that pops up when you hover over it) of the hyperlink, enclosed either in double or single quotes, or in parentheses.
+[пример] [id]
 
-Link identifiers can consist of letters, numbers, spaces, and punctuation marks, but they are not case sensitive. That is, these two options are equivalent:
+[id]: http://example.com/ "Необязательная подсказка"
 
-    [link text][a]
-    [link text][A]
+Иными словами, она состоит из следующих элементов:
 
-Markdown also allows you to use an implicitly expressed identifier (abbreviated). In this case, the label is not given, instead the hyperlink text is used as its name, and the second pair of square brackets remains empty.
+ - Идентификатор ссылки, окружённый квадратными скобками (которым может предшествовать необязательный отступ от одного до трёх пробелов);
+ - 	Двоеточие;
+ - 	Один или несколько пробелов (или символов табуляции);
+ - 	URL гиперссылки;
+ - 	Необязательный заголовок (подсказка к изображению, которая всплывает при наведении на него) гиперссылки, заключённый либо в двойные или одиночные кавычки, либо в скобки.
 
-For example, to make the word "Example" a hyperlink leading to the site <http://example.com />, it is enough to write:
+Идентификаторы ссылок могут состоять из букв, цифр, пробелов и знаков пунктуации, однако они не чувствительны к регистру. То есть эти два варианта эквивалентны:
+
+    [текст ссылки][a]
+    [текст ссылки][A]
+
+Markdown позволяет также использовать неявно выраженный идентификатор (сокращенный). В этом случае метка не приводится, вместо неё текст гиперссылки используется  и в качестве её имени, а вторая пара квадратных скобок остаётся пустою.
+
+Например, чтобы сделать слово «Example» гиперссылкой, ведущей на сайт <http://example.com/>, достаточно написать:
 
     [Example][]
 
-and then define the hyperlink:
+и затем определить гиперссылку:
 
     [Example]: http://example.com/
 
-As a result, the following is displayed on the screen:
+В результате на экран выводится следующее:
+
 [Example][]
+
 [Example]: http://example.com/  
 
-# Text selection
-Markdown perceives asterisks "*" and underscores "_" as signs of semantic text selection:
+# Выделение текста
 
- - Text surrounded by single "*" or "_" will be enclosed in the HTML tag `<em>`.
- - Text surrounded by double "*" or "_" will be enclosed in the HTML tag `<strong>`.
+Markdown воспринимает звёздочки «*» и символы подчёркивания «_» как признаки смыслового выделения текста:
 
-In other words, text surrounded by single characters is highlighted in italics, and text surrounded by double characters is highlighted in bold. 
+ - Текст, окружённый одиночными «*» или «_», будет заключен в HTML-тэг `<em>`.
 
-Also, the selected fragment can be located in any part of the word. 
+ -  Текст, окружённый двойными «*» или «_», будет заключен в HTML-тэг `<strong>`.
 
-The text in italics using the Markdown syntax looks like this:
+Иными словами, текст, окруженный одинарными символами, выделяется курсивным шрифтом, а текст, окруженный двойными символами, выделяется полужирным шрифтом. 
 
-    *Example* 
+Также, выделенный фрагмент может находиться в любой части слова. 
+Текст, выделенный курсивом с использованием синтаксиса языка Markdown, выглядит следующим образом:
 
-*Example* 
+    *Пример*  
 
-The text in bold using the Markdown syntax looks like this:
+*Пример*  
 
-    **Example**
+Текст, выделенный полужирным шрифтом с использованием синтаксиса языка Markdown, выглядит следующим образом:
 
-**Example**
+    **Пример**
 
-The text in italics in bold using the Markdown syntax looks like this:
+**Пример**  
 
-    ***Example***
- 
-***Example***
+Текст, выделенный курсивным полужирным шрифтом с использованием синтаксиса языка Markdown выглядит следующим образом:
 
-All the above examples are similar to the following:
+    ***Пример***
 
-    _example_
+***Пример***
 
-    __example__
- 
-    Re___distribution___division
+Все приведенные выше примеры аналогичны следующим:
 
-    ___example___
+    _Пример_
 
-# Code fragments of strings
+    __Пример__
 
-To mark a line fragment containing the code, it is necessary to surround it with reverse apostrophes "`". When using code fragments of strings, the text will be displayed as a monospaced font. 
+    Пере___распред___деление
 
-Unlike code blocks, a code fragment allows you to put the code inside a regular paragraph of text.
-The code fragment of a string in the Markdown language looks like this:
+    ___Пример___  
 
-Use the `if` operator
+# Кодовые фрагменты строк
+Чтобы отметить фрагмент строки, содержащий код, необходимо окружить его обратными апострофами «`».  При использовании кодовых фрагментов строк текст будет отображаться в виде моноширинного шрифта. 
 
-# Images
+В отличие от блоков кода, кодовый фрагмент позволяет поместить код внутрь обычного абзаца текста.
 
-There are 2 ways to insert images into a document in Markdown:
+Кодовый фрагмент строки в языке Markdown выглядит следующим образом:
 
-a. By directly specifying the URL of the image. The syntax of this command is as follows:
+Используйте оператор `if`  
 
-    ![Alternative text](/path/to/image.jpg)
+# Изображения
+В Markdown существует 2 способа вставки изображений в документ:
 
-or
+a.	С помощью непосредственного указания URL-адреса изображения. Синтаксис данной команды выглядит следующим образом:
 
-    ![Alternative text](/path/to/image.jpg "Hint")
+    ![Альтернативный текст](/путь/к/изображению.jpg)
 
-In other words, it consists of the following elements:
+или
 
- - exclamation mark;
+    ![Альтернативный текст](/путь/к/изображению.jpg "Подсказка")
 
- - square brackets, which indicate the text alternative to the image (it will become the content of the attribute in the img element);
+Иными словами, он состоит из следующих элементов:
 
- - parentheses containing the URL or relative path of the image, as well as (optionally) a tooltip enclosed in double or single quotes.
+ - восклицательный знак;
+ -  квадратные скобки, в которых указывается альтернативный изображению текст (он станет содержимым атрибута в элементе img);
+ -  круглые скобки, содержащие URL-адрес или относительный путь изображения, а также (необязательно) всплывающую подсказку, заключённуе в двойные или одиночные кавычки.
 
-b. Using an identifier label. The syntax of this command is written as follows:
+b.	С помощью метки-идентификатора.  Синтаксис данной команды записывается следующим образом:
 
-    ![Alternative text][id]
+    ![Альтернативный текст][id]
 
-where "id" is the name of a specific image label. Image labels are defined using a syntax that is completely identical to hyperlink labels:
+где «id» — имя определённой метки изображения. Метки изображений определяются при помощи синтаксиса, совершенно идентичного меткам гиперссылок:
 
-    [id]: path/to/image "Optional hint"
-
-An important feature is that Markdown does not allow you to set image dimensions (width, height).
- 
+    [id]: путь/к/изображению "Необязательная подсказка"
+    
+Важной особенностью является то, что Markdown не позволяет задать размеры изображения (ширину, высоту).  

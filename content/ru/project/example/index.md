@@ -1,6 +1,6 @@
 ---
-title: Gamified habit tracker
-summary: Habit trackers pop up in articles like this all the time. More often, only to-do list apps or instant messengers are mentioned.
+title: Геймифицированный трекер привычек
+summary: Трекеры привычек постоянно появляются в подобных статьях. Чаще всего упоминаются только приложения для составления списка дел или мессенджеры.
 tags:
   - Deep Learning
 date: '2022-05-25T00:00:00Z'
@@ -14,23 +14,23 @@ image:
 
 ---
 
-Habit trackers pop up in articles like this all the time. More often, only to-do list apps or instant messengers are mentioned. By tradition, they should appear in all such collections. So, make sure that they are not listed in my article and you can even double-check.
+Трекеры привычек постоянно появляются в подобных статьях. Чаще всего упоминаются только приложения для составления списка дел или мессенджеры. По традиции они должны присутствовать во всех подобных коллекциях. Итак, убедитесь, что они не перечислены в моей статье, и вы даже можете перепроверить.
 
-In the gamified habit tracker, you can take an unexpected twist by adding the following features:
+В геймифицированном трекере привычек вы можете сделать неожиданный поворот, добавив следующие функции:
 
-bonuses and achievements (achievements) for those who completed the tracker;
-the emergence of new features as you use the application;
-competition among users who want to do X (for example, read 20 pages a day);
-quests where users have to follow a given habit formation process.
+- бонусы и достижения (достижения) для тех, кто прошел трекер;
+- появление новых функций по мере использования приложения;
+- конкуренция среди пользователей, которые хотят делать X (например, читать 20 страниц в день);
+- квесты, в которых пользователи должны следовать заданному процессу формирования привычек.
 
-Our application should have a set of tools to further motivate users to develop a good habit. This is exactly what will distinguish your application from most other trackers.
+Наше приложение должно иметь набор инструментов для дальнейшей мотивации пользователей к выработке хорошей привычки. Это именно то, что будет отличать ваше приложение от большинства других трекеров.
 
-Back- end programming skills: :star: :star: :star:
+Навыки серверного программирования: :star: :star: :star:
 
-Front-end programming skills: :star: :star: :star: :star:
+Навыки фронтального программирования: :star: :star: :star: :star:
 
-Ops skills (administration): :star: :star:
+Оперативные навыки (администрирование): :star: :star:
 
-Complexity: :bomb: :bomb: :bomb:
+Сложность: :bomb: :bomb: :bomb:
 
-Profit potential: :credit_card: :credit_card: :credit_card: 
+Прибыль: :credit_card: :credit_card: :credit_card: 
